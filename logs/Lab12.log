@@ -1,0 +1,48 @@
+трав. 24, 2026 2:24:07 ПП com.example.lab12.util.AppLogger setup
+INFO: Логування ув?мкнено
+трав. 24, 2026 2:24:07 ПП com.example.lab12.controller.MainController show
+INFO: Запуск головного в?кна
+трав. 24, 2026 2:24:08 ПП com.example.lab12.dao.EmployeeDbDAOImpl createTable
+INFO: DAO SQL: CREATE TABLE IF NOT EXISTS employees
+трав. 24, 2026 2:24:08 ПП com.example.lab12.service.EmployeeService <init>
+INFO: Service створено
+трав. 24, 2026 2:24:08 ПП com.example.lab12.service.EmployeeService getAllEmployees
+INFO: Service: отримання списку сп?вроб?тник?в
+трав. 24, 2026 2:24:08 ПП com.example.lab12.dao.EmployeeDbDAOImpl getAll
+INFO: DAO SQL: SELECT id, name, position, salary FROM employees ORDER BY id
+трав. 24, 2026 2:24:08 ПП com.example.lab12.controller.MainController show
+INFO: П?дключення до MySQL виконано усп?шно
+трав. 24, 2026 2:24:28 ПП com.example.lab12.controller.MainController addEmployee
+INFO: Користувач натиснув Додати
+трав. 24, 2026 2:24:28 ПП com.example.lab12.dao.EmployeeDbDAOImpl add
+INFO: DAO SQL: INSERT INTO employees
+трав. 24, 2026 2:24:28 ПП com.example.lab12.service.EmployeeService addEmployee
+INFO: Service: додано сп?вроб?тника ?ван
+трав. 24, 2026 2:24:28 ПП com.example.lab12.service.EmployeeService getAllEmployees
+INFO: Service: отримання списку сп?вроб?тник?в
+трав. 24, 2026 2:24:28 ПП com.example.lab12.dao.EmployeeDbDAOImpl getAll
+INFO: DAO SQL: SELECT id, name, position, salary FROM employees ORDER BY id
+трав. 24, 2026 2:24:30 ПП com.example.lab12.controller.MainController validateEmployeesInBackground
+INFO: Користувач запустив фонову перев?рку сп?вроб?тник?в
+трав. 24, 2026 2:24:30 ПП com.example.lab12.controller.MainController$2 call
+INFO: Task: початок перев?рки сп?вроб?тник?в
+трав. 24, 2026 2:24:30 ПП com.example.lab12.service.EmployeeService getAllEmployees
+INFO: Service: отримання списку сп?вроб?тник?в
+трав. 24, 2026 2:24:30 ПП com.example.lab12.dao.EmployeeDbDAOImpl getAll
+INFO: DAO SQL: SELECT id, name, position, salary FROM employees ORDER BY id
+трав. 24, 2026 2:24:31 ПП com.example.lab12.controller.MainController$2 call
+INFO: Task: перев?рка сп?вроб?тник?в завершена
+трав. 24, 2026 2:24:31 ПП com.example.lab12.controller.MainController lambda$validateEmployeesInBackground$0
+INFO: Фонова перев?рка виконана усп?шно
+трав. 24, 2026 2:24:34 ПП com.example.lab12.controller.MainController validateEmployeesInBackground
+INFO: Користувач запустив фонову перев?рку сп?вроб?тник?в
+трав. 24, 2026 2:24:34 ПП com.example.lab12.controller.MainController$2 call
+INFO: Task: початок перев?рки сп?вроб?тник?в
+трав. 24, 2026 2:24:34 ПП com.example.lab12.service.EmployeeService getAllEmployees
+INFO: Service: отримання списку сп?вроб?тник?в
+трав. 24, 2026 2:24:34 ПП com.example.lab12.dao.EmployeeDbDAOImpl getAll
+INFO: DAO SQL: SELECT id, name, position, salary FROM employees ORDER BY id
+трав. 24, 2026 2:24:35 ПП com.example.lab12.controller.MainController$2 call
+INFO: Task: перев?рка сп?вроб?тник?в завершена
+трав. 24, 2026 2:24:35 ПП com.example.lab12.controller.MainController lambda$validateEmployeesInBackground$0
+INFO: Фонова перев?рка виконана усп?шно

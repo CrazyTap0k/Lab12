@@ -1,0 +1,9 @@
+CREATE DATABASE IF NOT EXISTS lab12_employee_db CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+USE lab12_employee_db;
+
+CREATE TABLE IF NOT EXISTS employees (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(100) NOT NULL,
+    position VARCHAR(100) NOT NULL,
+    salary DOUBLE NOT NULL
+);
